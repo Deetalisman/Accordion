@@ -16,6 +16,7 @@ code {
   margin: 0;
   box-sizing: border-box;
 }
+
 l body {
   font-family: sans-serif;
   color: #343a40;
@@ -81,4 +82,23 @@ l body {
 .open .number,
 .open .title {
   color: #087f5b;
+}
+@media screen and (max-width: 800px) {
+  .accordion {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .accordion {
+    width: 90%;
+  }
+  .title {
+    font-size: 17px;
+  }
+  .content-box {
+    font-size: 15px;
+  }
+  .item {
+    padding: 0.5rem;
+  }
 }
